@@ -1,10 +1,6 @@
 import { Logger } from "tslog";
 
 export const logger = new Logger({
-  name: "avatar-history",
+  name: "example-bot",
   type: "pretty",
-  colorizePrettyLogs: true,
-  displayFunctionName: false,
-  displayFilePath: "hidden",
-  minLevel: "silly",
 });
